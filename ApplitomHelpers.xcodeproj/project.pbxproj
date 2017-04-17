@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		F119F1A41EA4C22E00541DEE /* ApplitomHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = F119F1A21EA4C22E00541DEE /* ApplitomHelpers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F119F1AC1EA4C29A00541DEE /* UIImageExtentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F119F1AB1EA4C29A00541DEE /* UIImageExtentions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F119F19F1EA4C22E00541DEE /* ApplitomHelpers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ApplitomHelpers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F119F1A21EA4C22E00541DEE /* ApplitomHelpers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ApplitomHelpers.h; sourceTree = "<group>"; };
 		F119F1A31EA4C22E00541DEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F119F1AB1EA4C29A00541DEE /* UIImageExtentions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExtentions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,10 +48,19 @@
 		F119F1A11EA4C22E00541DEE /* ApplitomHelpers */ = {
 			isa = PBXGroup;
 			children = (
+				F119F1AA1EA4C27900541DEE /* Extensions */,
 				F119F1A21EA4C22E00541DEE /* ApplitomHelpers.h */,
 				F119F1A31EA4C22E00541DEE /* Info.plist */,
 			);
 			path = ApplitomHelpers;
+			sourceTree = "<group>";
+		};
+		F119F1AA1EA4C27900541DEE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F119F1AB1EA4C29A00541DEE /* UIImageExtentions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,6 +107,7 @@
 					F119F19E1EA4C22E00541DEE = {
 						CreatedOnToolsVersion = 8.3.1;
 						DevelopmentTeam = XZXH5A79L4;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -132,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F119F1AC1EA4C29A00541DEE /* UIImageExtentions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,6 +255,7 @@
 		F119F1A81EA4C22E00541DEE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = XZXH5A79L4;
@@ -254,6 +268,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.applitom.ApplitomHelpers;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -261,6 +276,7 @@
 		F119F1A91EA4C22E00541DEE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = XZXH5A79L4;
