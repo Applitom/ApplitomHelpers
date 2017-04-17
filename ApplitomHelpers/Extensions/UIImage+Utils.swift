@@ -11,7 +11,12 @@ import UIKit
 
 public extension UIImage {
     
-    // This convenience init will create UIImage from the given UIView
+    /**
+     This convenience init will create UIImage from the given UIView
+     
+     - parameters:
+        - view: UIView to create image from
+     */
     convenience init(view: UIView) {
         
         UIGraphicsBeginImageContextWithOptions(view.bounds.size, true, 0)
