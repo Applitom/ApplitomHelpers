@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-extension UIImage {
+public extension UIImage {
     
     // This convenience init will create UIImage from the given UIView
     convenience init(view: UIView) {
