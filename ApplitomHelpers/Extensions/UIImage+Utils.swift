@@ -25,4 +25,34 @@ public extension UIImage {
         UIGraphicsEndImageContext()
         self.init(cgImage: image!.cgImage!)
     }
+    
+    func resize(newSize:CGSize) -> UIImage{
+        
+        UIGraphicsBeginImageContextWithOptions(newSize, false, 0.0)
+        
+        self.draw(in: CGRect(x: 0,
+                              y: 0,
+                              width: newSize.width,
+                              height: newSize.height))
+        
+        let newimg = UIGraphicsGetImageFromCurrentImageContext()
+        UIGraphicsEndImageContext()
+        return newimg!
+    }
+    
+    func addInsets(insets: UIEdgeInsets) -> UIImage {
+        
+        UIGraphicsBeginImageContextWithOptions(CGSize(width: self.size.width + insets.left + insets.right,
+                                                      height: self.size.height + insets.top + insets.bottom),
+                                               false,
+                                               self.scale)
+        
+        let _ = UIGraphicsGetCurrentContext()
+        let origin = CGPoint(x: insets.left, y: insets.top)
+        self.draw(at: origin)
+        let imageWithInsets = UIGraphicsGetImageFromCurrentImageContext()
+        UIGraphicsEndImageContext()
+        
+        return imageWithInsets!
+    }
 }
