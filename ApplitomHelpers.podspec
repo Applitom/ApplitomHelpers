@@ -23,6 +23,7 @@ Pod::Spec.new do |s|
   s.social_media_url   = "http://twitter.com/applitom"
 
   s.platform     = :ios, "9.1"
+  s.swift_version = "4.2"
 
   s.source       = { :git => "https://github.com/Applitom/ApplitomHelpers.git", :tag => "#{s.version}" }
   s.source_files  = "ApplitomHelpers/**/*.{swift}"
