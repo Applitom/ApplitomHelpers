@@ -28,7 +28,26 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F11E70C722F3295C00513815"
+               BuildableName = "ApplitomHelpersTests.xctest"
+               BlueprintName = "ApplitomHelpersTests"
+               ReferencedContainer = "container:ApplitomHelpers.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "F119F19E1EA4C22E00541DEE"
+            BuildableName = "ApplitomHelpers.framework"
+            BlueprintName = "ApplitomHelpers"
+            ReferencedContainer = "container:ApplitomHelpers.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>

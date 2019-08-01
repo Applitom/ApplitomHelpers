@@ -55,4 +55,14 @@ public extension UIImage {
         
         return imageWithInsets!
     }
+    
+    func imageWithAlpha(_ alphaFactor: CGFloat) -> UIImage {
+        // Change app icon opacity
+        UIGraphicsBeginImageContextWithOptions(self.size, false, self.scale)
+        self.draw(at: .zero, blendMode: .normal, alpha: alphaFactor)
+        let newImage = UIGraphicsGetImageFromCurrentImageContext()
+        UIGraphicsEndImageContext()
+        
+        return newImage ?? self
+    }
 }

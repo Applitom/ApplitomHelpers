@@ -10,7 +10,21 @@
 		F119F1A41EA4C22E00541DEE /* ApplitomHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = F119F1A21EA4C22E00541DEE /* ApplitomHelpers.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F119F1AC1EA4C29A00541DEE /* UIImage+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = F119F1AB1EA4C29A00541DEE /* UIImage+Utils.swift */; };
 		F119F1AE1EA4C49A00541DEE /* ApplitomHelpers.podspec in Resources */ = {isa = PBXBuildFile; fileRef = F119F1AD1EA4C49A00541DEE /* ApplitomHelpers.podspec */; };
+		F11E70C322F327FC00513815 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F11E70C222F327FC00513815 /* README.md */; };
+		F11E70CB22F3295D00513815 /* UIImage+Utils_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11E70CA22F3295D00513815 /* UIImage+Utils_Tests.swift */; };
+		F11E70CD22F3295D00513815 /* ApplitomHelpers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F119F19F1EA4C22E00541DEE /* ApplitomHelpers.framework */; };
+		F11E70D422F329CE00513815 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F11E70D322F329CE00513815 /* Images.xcassets */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F11E70CE22F3295D00513815 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F119F1961EA4C22E00541DEE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F119F19E1EA4C22E00541DEE;
+			remoteInfo = ApplitomHelpers;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		F119F19F1EA4C22E00541DEE /* ApplitomHelpers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ApplitomHelpers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -18,6 +32,11 @@
 		F119F1A31EA4C22E00541DEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F119F1AB1EA4C29A00541DEE /* UIImage+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Utils.swift"; sourceTree = "<group>"; };
 		F119F1AD1EA4C49A00541DEE /* ApplitomHelpers.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ApplitomHelpers.podspec; sourceTree = "<group>"; };
+		F11E70C222F327FC00513815 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F11E70C822F3295C00513815 /* ApplitomHelpersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ApplitomHelpersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F11E70CA22F3295D00513815 /* UIImage+Utils_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Utils_Tests.swift"; sourceTree = "<group>"; };
+		F11E70CC22F3295D00513815 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F11E70D322F329CE00513815 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -28,6 +47,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F11E70C522F3295C00513815 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F11E70CD22F3295D00513815 /* ApplitomHelpers.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -35,7 +62,9 @@
 			isa = PBXGroup;
 			children = (
 				F119F1AD1EA4C49A00541DEE /* ApplitomHelpers.podspec */,
+				F11E70C222F327FC00513815 /* README.md */,
 				F119F1A11EA4C22E00541DEE /* ApplitomHelpers */,
+				F11E70C922F3295D00513815 /* ApplitomHelpersTests */,
 				F119F1A01EA4C22E00541DEE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,6 +73,7 @@
 			isa = PBXGroup;
 			children = (
 				F119F19F1EA4C22E00541DEE /* ApplitomHelpers.framework */,
+				F11E70C822F3295C00513815 /* ApplitomHelpersTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -64,6 +94,16 @@
 				F119F1AB1EA4C29A00541DEE /* UIImage+Utils.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F11E70C922F3295D00513815 /* ApplitomHelpersTests */ = {
+			isa = PBXGroup;
+			children = (
+				F11E70CA22F3295D00513815 /* UIImage+Utils_Tests.swift */,
+				F11E70CC22F3295D00513815 /* Info.plist */,
+				F11E70D322F329CE00513815 /* Images.xcassets */,
+			);
+			path = ApplitomHelpersTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -98,12 +138,31 @@
 			productReference = F119F19F1EA4C22E00541DEE /* ApplitomHelpers.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		F11E70C722F3295C00513815 /* ApplitomHelpersTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F11E70D022F3295D00513815 /* Build configuration list for PBXNativeTarget "ApplitomHelpersTests" */;
+			buildPhases = (
+				F11E70C422F3295C00513815 /* Sources */,
+				F11E70C522F3295C00513815 /* Frameworks */,
+				F11E70C622F3295C00513815 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F11E70CF22F3295D00513815 /* PBXTargetDependency */,
+			);
+			name = ApplitomHelpersTests;
+			productName = ApplitomHelpersTests;
+			productReference = F11E70C822F3295C00513815 /* ApplitomHelpersTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		F119F1961EA4C22E00541DEE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 1020;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = Applitom;
 				TargetAttributes = {
@@ -113,6 +172,10 @@
 						LastSwiftMigration = 1010;
 						ProvisioningStyle = Automatic;
 					};
+					F11E70C722F3295C00513815 = {
+						CreatedOnToolsVersion = 10.2.1;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = F119F1991EA4C22E00541DEE /* Build configuration list for PBXProject "ApplitomHelpers" */;
@@ -120,6 +183,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = F119F1951EA4C22E00541DEE;
@@ -128,6 +192,7 @@
 			projectRoot = "";
 			targets = (
 				F119F19E1EA4C22E00541DEE /* ApplitomHelpers */,
+				F11E70C722F3295C00513815 /* ApplitomHelpersTests */,
 			);
 		};
 /* End PBXProject section */
@@ -137,7 +202,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F11E70C322F327FC00513815 /* README.md in Resources */,
 				F119F1AE1EA4C49A00541DEE /* ApplitomHelpers.podspec in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F11E70C622F3295C00513815 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F11E70D422F329CE00513815 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,7 +226,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F11E70C422F3295C00513815 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F11E70CB22F3295D00513815 /* UIImage+Utils_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F11E70CF22F3295D00513815 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F119F19E1EA4C22E00541DEE /* ApplitomHelpers */;
+			targetProxy = F11E70CE22F3295D00513815 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		F119F1A51EA4C22E00541DEE /* Debug */ = {
@@ -317,6 +407,47 @@
 			};
 			name = Release;
 		};
+		F11E70D122F3295D00513815 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = ApplitomHelpersTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.autodesk.ApplitomHelpersTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F11E70D222F3295D00513815 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = ApplitomHelpersTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.autodesk.ApplitomHelpersTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -334,6 +465,15 @@
 			buildConfigurations = (
 				F119F1A81EA4C22E00541DEE /* Debug */,
 				F119F1A91EA4C22E00541DEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F11E70D022F3295D00513815 /* Build configuration list for PBXNativeTarget "ApplitomHelpersTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F11E70D122F3295D00513815 /* Debug */,
+				F11E70D222F3295D00513815 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
