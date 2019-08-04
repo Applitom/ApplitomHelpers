@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
 
   s.author             = { "Tomer Shalom" => "applitom@gmail.com" }
-  s.social_media_url   = "http://twitter.com/applitom"
+  s.social_media_url   = "https://twitter.com/applitom"
 
   s.platform     = :ios, "9.1"
   s.swift_version = "4.2"
