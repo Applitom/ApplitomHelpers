@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "ApplitomHelpers"
-  s.version      = "0.0.1"
+  s.version      = "1.0.0"
   s.summary      = "Helper Swift library from Applitom"
 
   s.description  = <<-DESC
