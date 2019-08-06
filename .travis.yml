@@ -2,4 +2,4 @@ language: objective-c
 osx_image: xcode10.2
 
 script:
-- xcodebuild clean test -project ApplitomHelpers.xcodeproj -scheme ApplitomHelpers -destination "platform=iOS Simulator,name=iPhone 8,OS=11.2" CODE_SIGNING_REQUIRED=NO
+- xcodebuild clean test -project ApplitomHelpers.xcodeproj -scheme ApplitomHelpers -destination "platform=iOS Simulator,name=iPhone 8" CODE_SIGNING_REQUIRED=NO
