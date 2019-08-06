@@ -1,5 +1,11 @@
 # ApplitomHelpers
 
+[![Build Status](https://travis-ci.org/Applitom/ApplitomHelpers.svg?branch=master)](https://travis-ci.org/Applitom/ApplitomHelpers)
+[![CocoaPods Version](https://img.shields.io/cocoapods/v/ApplitomHelpers.svg)](https://cocoapods.org/pods/ApplitomHelpers)
+[![Swift Version](https://img.shields.io/badge/Swift-4.0-orange.svg?style=flat)](https://swift.org)
+[![Platform](https://img.shields.io/badge/platform-iOS-lightgrey.svg)](https://developer.apple.com/ios)
+
+
 ## About
 ApplitomHelpers is a Swift library that provides helpful extensions and extra helpers to your project.<br/>
 I started it for my personal use and decided to publish it as an open-source. I will add more functionality as time passes.
@@ -7,6 +13,7 @@ I started it for my personal use and decided to publish it as an open-source. I 
 ## Content
 - [Extentions](#Extentions)
     - [UIImage+Utils](#UIImage+Utils)
+    - [Int Extention](#Int-Extentions)
 
 ## Extentions
 

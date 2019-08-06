@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		F119F1A41EA4C22E00541DEE /* ApplitomHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = F119F1A21EA4C22E00541DEE /* ApplitomHelpers.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F119F1AC1EA4C29A00541DEE /* UIImage+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = F119F1AB1EA4C29A00541DEE /* UIImage+Utils.swift */; };
-		F119F1AE1EA4C49A00541DEE /* ApplitomHelpers.podspec in Resources */ = {isa = PBXBuildFile; fileRef = F119F1AD1EA4C49A00541DEE /* ApplitomHelpers.podspec */; };
 		F11E70C322F327FC00513815 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F11E70C222F327FC00513815 /* README.md */; };
 		F11E70CB22F3295D00513815 /* UIImage+Utils_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11E70CA22F3295D00513815 /* UIImage+Utils_Tests.swift */; };
 		F11E70CD22F3295D00513815 /* ApplitomHelpers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F119F19F1EA4C22E00541DEE /* ApplitomHelpers.framework */; };
@@ -41,6 +40,7 @@
 		F11E70D322F329CE00513815 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F13D2FA722F990BC00FE6B3D /* IntExtentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntExtentions.swift; sourceTree = "<group>"; };
 		F13D2FA922F9910400FE6B3D /* IntExtentionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntExtentionsTests.swift; sourceTree = "<group>"; };
+		F1F463E322F9DBA5006BC28E /* .travis.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .travis.yml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +65,7 @@
 		F119F1951EA4C22E00541DEE = {
 			isa = PBXGroup;
 			children = (
+				F1F463E322F9DBA5006BC28E /* .travis.yml */,
 				F119F1AD1EA4C49A00541DEE /* ApplitomHelpers.podspec */,
 				F11E70C222F327FC00513815 /* README.md */,
 				F119F1A11EA4C22E00541DEE /* ApplitomHelpers */,
@@ -209,7 +210,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				F11E70C322F327FC00513815 /* README.md in Resources */,
-				F119F1AE1EA4C49A00541DEE /* ApplitomHelpers.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
