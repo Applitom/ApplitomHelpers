@@ -29,3 +29,9 @@ func addInsets(insets: UIEdgeInsets) -> UIImage
 ```
 func imageWithAlpha(_ alphaFactor: CGFloat) -> UIImage
 ```
+
+#### Int Extentions
+```
+func withCommas() -> String
+```
+returns string number with commas, for example 1000000 will return string of "1,000,000"

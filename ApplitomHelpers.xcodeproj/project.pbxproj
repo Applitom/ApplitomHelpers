@@ -14,6 +14,8 @@
 		F11E70CB22F3295D00513815 /* UIImage+Utils_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11E70CA22F3295D00513815 /* UIImage+Utils_Tests.swift */; };
 		F11E70CD22F3295D00513815 /* ApplitomHelpers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F119F19F1EA4C22E00541DEE /* ApplitomHelpers.framework */; };
 		F11E70D422F329CE00513815 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F11E70D322F329CE00513815 /* Images.xcassets */; };
+		F13D2FA822F990BC00FE6B3D /* IntExtentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13D2FA722F990BC00FE6B3D /* IntExtentions.swift */; };
+		F13D2FAA22F9910400FE6B3D /* IntExtentionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13D2FA922F9910400FE6B3D /* IntExtentionsTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +39,8 @@
 		F11E70CA22F3295D00513815 /* UIImage+Utils_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Utils_Tests.swift"; sourceTree = "<group>"; };
 		F11E70CC22F3295D00513815 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F11E70D322F329CE00513815 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F13D2FA722F990BC00FE6B3D /* IntExtentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntExtentions.swift; sourceTree = "<group>"; };
+		F13D2FA922F9910400FE6B3D /* IntExtentionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntExtentionsTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				F119F1AB1EA4C29A00541DEE /* UIImage+Utils.swift */,
+				F13D2FA722F990BC00FE6B3D /* IntExtentions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -102,6 +107,7 @@
 				F11E70CA22F3295D00513815 /* UIImage+Utils_Tests.swift */,
 				F11E70CC22F3295D00513815 /* Info.plist */,
 				F11E70D322F329CE00513815 /* Images.xcassets */,
+				F13D2FA922F9910400FE6B3D /* IntExtentionsTests.swift */,
 			);
 			path = ApplitomHelpersTests;
 			sourceTree = "<group>";
@@ -222,6 +228,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F13D2FA822F990BC00FE6B3D /* IntExtentions.swift in Sources */,
 				F119F1AC1EA4C29A00541DEE /* UIImage+Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -230,6 +237,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F13D2FAA22F9910400FE6B3D /* IntExtentionsTests.swift in Sources */,
 				F11E70CB22F3295D00513815 /* UIImage+Utils_Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
