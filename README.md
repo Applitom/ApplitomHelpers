@@ -33,9 +33,9 @@ target 'MyApp' do
 end
 ```
 
-## Extentions
+# Extentions
 
-#### UIImage+Utils
+### UIImage+Utils
 ##### Create UIImage from the given UIView.
 ```
 convenience init(view: UIView)
@@ -55,7 +55,8 @@ func addInsets(insets: UIEdgeInsets) -> UIImage
 func imageWithAlpha(_ alphaFactor: CGFloat) -> UIImage
 ```
 
-#### Int Extentions
+### Int Extentions
+##### Add commans to Integer
 ```
 func withCommas() -> String
 ```
