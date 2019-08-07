@@ -56,7 +56,7 @@ func imageWithAlpha(_ alphaFactor: CGFloat) -> UIImage
 ```
 
 ### Int Extentions
-##### Add commans to Integer
+##### Add commas to Integer
 ```
 func withCommas() -> String
 ```
